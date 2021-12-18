@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c47fea4c-9c34-4590-9d63-25258a0c8253": {
+      "ProjectGuid": "c47fea4c-9c34-4590-9d63-25258a0c8253",
+      "DisplayName": "WebAPI2.API",
+      "ColorIndex": 0
+    },
+    "a4be2650-4acd-436e-a265-166f5676c023": {
+      "ProjectGuid": "a4be2650-4acd-436e-a265-166f5676c023",
+      "DisplayName": "WebAPI2.Data",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "4e877b75-2a30-4cd0-9782-aeac4e68e9b2": {
+      "ProjectGuid": "4e877b75-2a30-4cd0-9782-aeac4e68e9b2",
+      "DisplayName": "WebAPI2.MVC",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
