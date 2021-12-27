@@ -20,7 +20,17 @@
       "ProjectGuid": "4e877b75-2a30-4cd0-9782-aeac4e68e9b2",
       "DisplayName": "WebAPI2.MVC",
       "ColorIndex": 2
+    },
+    "b7e2161a-7c24-44c5-a8a0-383d8a1b912a": {
+      "ProjectGuid": "b7e2161a-7c24-44c5-a8a0-383d8a1b912a",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
+    },
+    "0b4bda51-7da6-4eac-9745-95c78cff1595": {
+      "ProjectGuid": "0b4bda51-7da6-4eac-9745-95c78cff1595",
+      "DisplayName": "WebAPI2.Auth",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

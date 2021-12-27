@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj": {}
+    "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj": {
+    "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj",
         "projectName": "WebAPI2.Data",
-        "projectPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.Data\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,15 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[5.0.13, )"
             },
@@ -88,6 +96,10 @@
               "target": "Package",
               "version": "[5.0.12, )"
             },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.Identity.Web": {
               "target": "Package",
               "version": "[1.1.0, )"
@@ -106,7 +118,19 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -131,14 +155,14 @@
         }
       }
     },
-    "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj": {
+    "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj",
         "projectName": "WebAPI2.MVC",
-        "projectPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.MVC\\WebAPI2.MVC.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.MVC\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -159,8 +183,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj": {
-                "projectPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj"
+              "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj": {
+                "projectPath": "C:\\Users\\Igor\\Desktop\\Estudo2\\Estudo2\\Estudo2\\Estudo2\\WebAPI2.Data\\WebAPI2.Data.csproj"
               }
             }
           }
@@ -175,6 +199,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -187,13 +219,73 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
               "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
             }
           },
           "imports": [

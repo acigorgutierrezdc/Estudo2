@@ -1,24 +1,22 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WebAPI2.DBContext;
-using WebAPI2.Entities;
+using WebAPI2.Data.DBContext;
+using WebAPI2.Data.Entities;
 
-namespace WebAPI2.Controllers
+namespace WebAPI2.API.Controllers
 {
     [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class AspNetUsersController : ControllerBase
     {
-        private readonly EstudoDBContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public AspNetUsersController(EstudoDBContext context)
+        public AspNetUsersController(ApplicationDbContext context)
         {
             _context = context;
         }

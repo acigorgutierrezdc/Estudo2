@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WebAPI2.Data": {
+    "WebAPI2.Data.Data": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

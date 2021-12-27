@@ -1,15 +1,14 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WebAPI2.DBContext;
-using WebAPI2.Entities;
+using WebAPI2.Data.DBContext;
+using WebAPI2.Data.Entities;
 
-namespace WebAPI2.Controllers
+namespace WebAPI2.API.Controllers
 {
     [AllowAnonymous]
     [ApiController]

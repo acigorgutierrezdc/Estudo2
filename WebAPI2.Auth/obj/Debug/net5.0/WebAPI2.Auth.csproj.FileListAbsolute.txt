@@ -1,0 +1,7 @@
+C:\Users\Igor\Desktop\Estudo2\Estudo2\Estudo2\Estudo2\WebAPI2.Auth\obj\Debug\net5.0\WebAPI2.Auth.csproj.AssemblyReference.cache
+C:\Users\Igor\Desktop\Estudo2\Estudo2\Estudo2\Estudo2\WebAPI2.Auth\obj\Debug\net5.0\WebAPI2.Auth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor\Desktop\Estudo2\Estudo2\Estudo2\Estudo2\WebAPI2.Auth\obj\Debug\net5.0\WebAPI2.Auth.AssemblyInfoInputs.cache
+C:\Users\Igor\Desktop\Estudo2\Estudo2\Estudo2\Estudo2\WebAPI2.Auth\obj\Debug\net5.0\WebAPI2.Auth.AssemblyInfo.cs
+C:\Users\Igor\Desktop\Estudo2\Estudo2\Estudo2\Estudo2\WebAPI2.Auth\obj\Debug\net5.0\WebAPI2.Auth.csproj.CoreCompileInputs.cache
+C:\Users\Igor\Desktop\Estudo2\Estudo2\Estudo2\Estudo2\WebAPI2.Auth\obj\Debug\net5.0\WebAPI2.Auth.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Igor\Desktop\Estudo2\Estudo2\Estudo2\Estudo2\WebAPI2.Auth\obj\Debug\net5.0\WebAPI2.Auth.MvcApplicationPartsAssemblyInfo.cache

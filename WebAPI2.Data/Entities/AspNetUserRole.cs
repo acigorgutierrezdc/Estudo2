@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace WebAPI2.Entities
+namespace WebAPI2.Data.Entities
 {
     public partial class AspNetUserRole
     {

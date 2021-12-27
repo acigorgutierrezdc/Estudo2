@@ -7,8 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 using Microsoft.OpenApi.Models;
+using WebAPI2.Data.DBContext;
 
-namespace WebAPI2
+namespace WebAPI2.API
 {
     public class Startup
     {
@@ -19,11 +20,17 @@ namespace WebAPI2
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<EstudoDBContext>();
+            services.AddScoped<ApplicationDbContext>();
+
+            
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddMicrosoftIdentityWebApi(Configuration);
+
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
             services.AddControllers();
@@ -31,8 +38,6 @@ namespace WebAPI2
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI2", Version = "v1" });
             });
-
-            services.AddScoped<DBContext.EstudoDBContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
